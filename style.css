@@ -1,0 +1,1265 @@
+*{
+   
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;300&display=swap');
+
+@font-face {
+    font-family:BebasNeue-Regular;
+    src: url(./Fonts/BebasNeue-Regular.woff);
+}
+@font-face {
+    font-family: akrobat-Bold;
+    src: url(./Fonts/Akrobat-Bold.woff);
+}
+@font-face {
+    font-family: akrobat-ExtraBold;
+    src: url(./Fonts/Akrobat-ExtraBold.woff);
+    src: url(./Fonts/Akrobat-ExtraBold.woff2);
+}
+@font-face {
+    font-family: akrobat-Regular;
+    src:url(./Fonts/BebasNeue-Regular.woff);
+}
+@font-face {
+    font-family: akrobat-Light;
+    src: url(./Fonts/Akrobat-Light.woff);
+}
+
+.tred{
+    font-family: akrobat-ExtraBold;
+    font-weight: 900;
+    color: #f5323ff6;
+}
+body{
+
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    
+   
+}
+header{
+  
+    width: 100%;
+    height: 10%;
+}
+
+
+.headercontainer{
+    float: right;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    height: 600px;
+    background-image: url(./IMG/Layer\ header.png) ;
+    background-position: center;
+
+    background-size: cover;
+}
+.menuDesktop {
+    width: 80%;
+    height: 20px;
+ 
+}
+.menuDesktop ul{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  
+}
+.menuDesktop ul li{
+    margin-right: 20px;
+    margin-left: 8px;
+    list-style:none;
+    text-decoration: none;
+}
+.menuDesktop a{
+    color: #fff;
+    font-family: BebasNeue-regular;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.menuDesktop a:hover{
+    border-bottom: solid 2px #fff;
+    transition: 5s ease-in;
+}
+.menuMobile{
+    display:none;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formulario input{
+    font-family: 'Antonio', sans-serif;
+    text-align: center;
+    outline: none;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px none;
+    box-shadow: 4px 5px #0000002a;   
+    
+}
+.formulario input::placeholder{
+    background: linear-gradient(90deg, rgb(43, 42, 42) 31%, rgb(143, 143, 143) 73%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	padding:0;
+ 
+}
+
+
+
+
+.formulario button{
+    font-family: akrobat-Bold;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    outline: none;
+    color: #fff;
+    text-transform: capitalize;
+    background: #f5323ff6;
+    box-shadow: 4px 5px #42020675;
+}
+.containerContatos{
+    display: flex;
+}
+.contatos{
+    width: 200px;
+ 
+    margin: 20px;
+}
+.socialMidia{
+    width: 280px;
+    margin: 20px;
+}
+.contatos a {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Antonio', sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #fff;
+    margin: 5px;
+
+}
+.socialMidia a {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Antonio', sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #fff;
+    margin: 5px;
+
+}
+.containerimgheader{
+    float: left;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: start;
+    width: 50%;
+    height: 600px;
+  
+}
+.imagemLogo{  
+    margin-left: 15%;
+    height: 100px;
+}
+
+.imagemLayer{
+    width: 500px;
+    height: 500px;
+}
+.bloco{
+    position:relative;
+    float: left;
+}
+.logodiv{
+    width: 100%;
+    
+}
+.sectSacolas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+        width: 100%;
+}
+.sacolas{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+   
+}
+.sacolas h1{
+    font-weight: 100;
+    font-size: 6rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color:#2f2f2f ;
+    font-family:BebasNeue-Regular;
+}
+.sacolas p{
+    font-family: akrobat-Light;
+    margin: 20px;
+    font-size: 1.3rem;
+    color:#1d1d1d ;
+
+}
+
+.containerTamanhos{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+
+}
+.medidas{
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    background: #f6f6f6;
+  margin-left: 1%;
+}
+.medidas h2{
+    display:flex;
+    vertical-align: middle;
+    font-family: akrobat-Bold;
+    letter-spacing: 1px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    text-align: center;
+    border-radius: 12px;
+    background: #f5323ff6;
+    
+}
+.medidas p {
+    padding: 20px;
+    text-align: center;
+        margin: 20px;
+        font-size: 1rem;
+        color:#858585 ;
+        font-family: akrobat-Light;
+    
+}
+.medidas ul li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+.medidas li{
+    display:flex;
+    vertical-align: middle;
+    font-family: akrobat-Light;
+    letter-spacing: 1px;
+    width: 180px;
+    height: 50px;
+    border: none;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    color: #919191;
+    background: #eeeeee;
+}
+
+
+.imgDetalhe{
+    margin-top: 15px;
+}
+
+
+.containerEspecialImagem{
+    background: url(/IMG/backgroundEspecial.png)no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+      height: 600px;
+       display: flex;
+       flex-direction: column;
+       justify-content: start;
+       align-items: center;
+       text-align: center;
+    
+}
+
+.containerEspecialImagem h3{
+    text-transform: capitalize;
+    font-family: akrobat-Light;
+    letter-spacing: 30px;
+    font-size: 4rem;
+    color: #ffff;
+    margin: 50px;
+    font-weight: 100;
+   
+    
+}
+.containerEspecialImagem p {
+    font-size: 6rem;
+    font-family:BebasNeue-Regular;
+    color: #ffff;
+    margin: 50px;
+    
+}
+.span2{
+    font-family: akrobat-Bold;
+    font-size: 1.5rem;
+    color: #ffff;
+    word-spacing:10px
+
+}
+.textoespecial{
+    text-transform: uppercase;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 58%;
+    height: 750px;
+}
+
+.containerEspecial2{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.textoEspecial2{
+    width: 68%;
+}
+.textoEspecial2 p{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: akrobat-Light;
+    font-size: 1.3rem;
+    color: #161616;
+    margin: 50px;
+    font-weight: 100;
+}
+
+.sectionPasta{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 1540px;
+    background: #e03541;
+}
+.textosPastas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.textosPastas h4{
+    margin-bottom: 2%;
+    font-weight: 100;
+    font-size: 6rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color:#ffff ;
+    font-family:BebasNeue-Regular;
+}
+.textosPastas p{
+    font-weight:100 ;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color:#ffff ;
+    font-family: akrobat-Light;
+}
+
+.tBranc{
+    font-weight:400 ;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color:#ffff ;
+    font-family: akrobat-bold;
+}
+
+.containerPastas{
+    top: -20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:100%;
+   height: 700px;
+    background: #fff;
+    border-radius: 12px;
+}
+.containerModelosPasta{
+    width: 100;
+    height: 300;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ 
+}
+.modeloPasta {
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 200px;
+  
+}
+
+.modeloPasta h3{
+    display:flex;
+    vertical-align: middle;
+    font-family: akrobat-ExtraBold;
+    letter-spacing: 1px;
+    width: 350px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    text-align: center;
+    border-radius: 12px;
+    background: #ca343d;
+   
+ 
+}
+
+.modeloPasta p{
+    margin: 5%;
+    font-family: akrobat-Light;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    color: #2f2f2f;
+}
+
+.containerImgPastas{
+    width: 100%;
+    height: 600px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.imagempasta1{
+width: 1024px;
+height: 600px;
+background: url(/IMG/pastas.png) no-repeat;
+background-size: 100%;
+
+}
+
+.subTextoPastas{
+    width: 80%;
+    height: 20%;
+
+}
+.subTextoPastas p{
+    margin-top: 2%;
+    text-align: center;
+    font-weight:100 ;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color:#ffff ;
+    font-family: akrobat-Light;
+}
+
+.envelopes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.envelopesTexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+.envelopes h3{
+  
+    font-weight: 100;
+    font-size: 6rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color:#2f2f2f ;
+    font-family:BebasNeue-Regular;
+}
+
+.envelopes p{
+    width: 75%;
+    font-family: akrobat-Light;
+    margin: 5px;
+    font-size: 1.3rem;
+    color:#1d1d1d ;
+}
+
+
+.envelopesTipos{
+    width:80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-content: center;
+ 
+}
+.tipo{
+    display:flex;
+    height: 500px;
+    align-items: center;
+    flex-direction: column;
+    background: #f6f6f6;
+    align-content: center;
+    border-radius: 12px;
+}
+.tipo h2{
+    display:flex;
+    vertical-align: middle;
+    font-family: akrobat-Bold;
+    letter-spacing: 1px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    text-align: center;
+    border-radius: 12px;
+    background: #f5323ff6;
+}
+
+.tipo  li {
+    margin-top: 2%;
+    display:flex;
+    vertical-align: middle;
+    font-family: akrobat-Light;
+    letter-spacing: 1px;
+    width: 180px;
+    height: 50px;
+    border: none;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    color: #919191;
+    background: #eeeeee;
+
+}
+.containerImgEnvelope{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    width: 80%;
+    height: 400px;
+    background: #f6f6f6;
+    border-radius: 12px;
+    margin: 10px;
+}
+.imgEnvelope1{
+    width: 20%;
+    height: 200px;
+    background: url(/IMG/Envelope1.png) no-repeat;
+    background-size: 100%;
+}
+.imgEnvelope2{
+    width: 20%;
+    height: 200px;
+    background: url(/IMG/Envelope2.png) no-repeat;
+    background-size: 100%;
+}
+.imgEnvelope3{
+    width: 20%;
+    height: 200px;
+    background: url(/IMG/Envelope3.png) no-repeat;
+    background-size: 100%;
+}
+.containerOutrosTIpos{
+    width:80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.tipo2{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    background: #f6f6f6;
+    align-content: center;
+}
+.tipo2 h2{
+    display:flex;
+    vertical-align: middle;
+    font-family: akrobat-Bold;
+    letter-spacing: 1px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    text-align: center;
+    border-radius: 12px;
+    background: #f5323ff6;
+}
+
+.formularioContato{
+    margin-top: 5%;
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(to right,#2b2b2b25,#2b2b2b1f), url(./IMG/backgroundContato.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.contatoh2{
+    width: 80%;
+    text-align: center;
+}
+
+.contatoh2 h2{
+    font-weight: 100;
+    font-size: 6rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family:BebasNeue-Regular;
+    color: #fff;
+}
+.contatoFormulario{
+    width: 80%;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+
+}
+.containerform{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.form1{
+    margin: 2%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.form1 input {
+   
+ font-family: akrobat-Light;
+ font-weight: 600;
+ color: #dfdfdfa8;
+ font-size: 1.5rem;
+ width: 300px;
+ height: 60px;
+
+}
+
+.containerform2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.containerform2 input{
+font-family: akrobat-Light;
+ font-weight: 600;
+ color: #dfdfdfa8;
+ font-size: 1.5rem;
+ width: 620px;
+ height: 60px;
+
+}
+
+.containerform2 button{
+    margin-top: 2%;
+    font-family: akrobat-Bold;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 200px;
+    height: 60px;
+    border: none;
+    outline: none;
+    color: #fff;
+    text-transform: capitalize;
+    background: #f5323ff6;
+    box-shadow: 4px 5px #42020675;
+}
+
+.contatoSubTexto{
+    width: 50%;
+    margin-top: 2%;
+    text-align: center;
+    font-weight:100 ;
+    font-size: 1rem;
+    text-transform: capitalize;
+    color:#ffff ;
+    font-family: akrobat-Light;
+}
+
+footer{
+    font-family: akrobat-Light;
+    color: #fff;
+    background: #e03541;
+    width: 100%;
+    height:7vh;
+    letter-spacing: 5px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+@media (max-width:1518px ) {
+
+    .sectSacolas{
+        width: 100%;
+       font-size: 50%;
+    }
+    .containerTamanhos{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        width: 93%;
+      
+    }
+    .medidas h2{
+        font-size: 200%;
+        width: 150px;
+        height: 50px;
+    }
+    .medidas p{
+        width: 100%;
+        font-size: 200%;
+    }
+    .medidas li{
+        font-size: 200%;
+    }
+    .sectEspecial{
+        margin-top: 5%;
+      width: 100%;
+  }
+  .textoespecial{
+    width: 100%;
+  }
+  .textoespecial
+   p{
+   
+    font-size: 3rem;
+      
+  }
+  .textoEspecial2{
+      width: 100%;
+  }
+  .textoEspecial2 p{
+    font-size: 150%;
+  }
+  .envelopesTipos{
+      margin-top:40px;
+  }
+
+
+}
+
+
+@media (max-width:1268px ) {
+    .containerimgheader{
+       width: 100%;
+       float: top;
+    }
+    .headercontainer{
+        width: 100%;
+    }
+    .sectSacolas{
+        width: 100%;
+       font-size: 50%;
+    }
+    .containerTamanhos{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        width: 93%;
+        overflow-x: scroll;
+    }
+    .medidas{
+        width: auto;
+        margin-left: 20px;
+    }
+    .sectEspecial{
+        margin-top: 5%;
+      width: 100%;
+  }
+  .textoespecial{
+    width: 100%;
+  }
+  .textoespecial
+   p{
+   
+    font-size: 3rem;
+      
+  }
+  .textoEspecial2{
+      width: 100%;
+  }
+  .textoEspecial2 p{
+    font-size: 150%;
+  }
+  .containerPastas{
+    width:100;
+    font-size:100%;
+    height: 400px;
+    display: flex;
+    overflow-x: scroll
+}
+.containerModelosPasta{
+    justify-content: center;
+    flex-direction: column;
+}
+.envelopesTipos{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 80%;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow-x: scroll;
+ 
+}
+.containerImgEnvelope{
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+ 
+  
+}
+.imgEnvelope1{
+  width: 250px;
+}
+.imgEnvelope2{
+  width: 250px;
+}
+.imgEnvelope3{
+  width: 250px;
+}
+.containerOutrosTIpos{
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.tipo2{
+    margin: 20px;
+}
+
+}
+
+
+/*CSS SITE VERSAO MOBILE */
+@media (max-width:767px) {
+    .menuDesktop{
+        display: none;
+    }
+.bloco{
+    display: none;
+}
+    .hamburguerMenu{
+        position: fixed;
+        z-index: 5;
+        left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        transition: all .5s ease-in-out;
+        background: #e03541;
+        
+    
+    }
+    .menuBtn{
+        position: relative;
+        float: left;
+       width: 40px;
+       height: 5px;
+       background: #fff;
+       border-radius: 2px;
+       transition: all .5s ease-in-out;
+    }
+    .menuBtn::before,
+    .menuBtn::after{
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 5px;
+        background: #fff;
+      
+        transition: all .5s ease-in-out;
+    }
+    .menuBtn::before{
+        transform: translateY(-16px);
+    }
+    .menuBtn::after{
+        transform: translateY(16px);
+    }
+    .hamburguerMenu.open .menuBtn{
+    background: transparent;
+    box-shadow: none;
+    }
+    .hamburguerMenu.open .menuBtn::before {
+     transform: rotate(45deg) ;
+    }
+    .hamburguerMenu.open .menuBtn::after {
+        transform: rotate(-45deg) ;
+       }
+    
+    
+       .menuMobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+           position: fixed;
+           left: -450px;
+           top: 0px;
+        width: 50%;
+        height: 100vh;
+        background: #e03541;
+        transition: ease-in;
+        transition-duration: 2s;
+       }
+       .mobileopen{
+       transform: translateX(450px);
+       transition-duration: 2s;
+        transition: ease-in;
+       }
+       .menuMobile ul {
+           position: relative;
+            top: 10%;
+            transform: translate(10%);
+        
+        }
+       .menuMobile ul li {
+        
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-content: flex-start;
+           align-items: flex-start;
+           margin: 50px;
+           
+       }
+        .menuMobile ul li a {
+            font-family: BebasNeue-regular;
+            letter-spacing: 5px;
+            font-size: 1rem;
+        outline: none;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        margin-bottom: 20px;
+    
+       }
+       header{
+           display: flex;
+           flex-direction: column;
+       }
+       .containerimgheader{
+           width: 100%;
+           height: 40%;
+           flex-direction: column;
+           align-items: center;
+           justify-content: space-between;
+           align-content: center;
+       }
+       .imagemLayer{
+           align-content: center;
+           width: 100%;
+           height: 300px;
+       }
+       .headercontainer{
+           width: 100%;
+       }
+       .containerContatos{
+           width: 80%;
+           display: flex;
+           flex-direction: column;
+       }
+      .sectSacolas{
+          width: 100%;
+         font-size: 50%;
+      }
+      .containerTamanhos{
+          margin-top: 20px;
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          overflow-x: scroll;
+      }
+      .medidas{
+          width: auto;
+          margin-left: 20px;
+      }
+      .sectEspecial{
+          margin-top: 5%;
+        width: 100%;
+    }
+    .containerEspecialImagem{
+        width: 100%;
+        height: 60vh;
+    }
+    .containerEspecialImagem{
+        justify-content: start;
+        width: 100%;
+        height: auto;
+        height: 60vh;
+    }
+    .textoespecial h3 {
+        font-size: 200%;
+    }
+    .textoespecial{
+        width: 100%;
+    }
+    .textoespecial p{
+        width: 80%;
+        font-size: 200%;
+    }
+    .containerEspecial2{
+        height: auto;
+        margin-top: 10%;
+        width: 80%;
+    }
+    .containerEspecial2 p{
+        font-size: 75%;
+       width: 100%;
+    }
+
+    .textoEspecial2{
+        font-size: 200%;
+        width: 100%;
+        height: auto;
+    }
+    .span2{
+        font-size: 100%;
+    }
+      .sectionPasta{
+          height: auto;
+        margin-top: 20px;
+        text-align: center;
+        flex-direction: column;
+        justify-content: start;
+      }
+      .containerPastas{
+          width:100%;
+          font-size:100%;
+          height: 600px;
+          display: flex;
+          overflow-y: auto;
+      }
+      .containerModelosPasta{
+          width: 100%;
+          height: 600px;
+          justify-content: center;
+          flex-direction: column;
+      }
+      .textosPastas{
+          margin-top: 10%;
+          margin-bottom: 10%;
+          width: 90%;
+      }
+      
+      .modeloPast{
+          width: 100%;
+      }
+      .modeloPasta h3{
+    font-size: 200%;
+        width: 300px;
+        height: 120px;
+        margin-top: 80px;
+    }
+    .modeloPasta p{
+        font-size: 24px;
+      width: 300px;
+      height: 90px;
+      margin: 20px;
+  }
+  .subTextoPastas{
+      width: 90%;
+      font-size: 100%;
+      margin-top: 10%;
+      margin-bottom: 10%;   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+  }
+   
+      .envelopesTipos{
+          margin-top: 20px;
+          height: 800px;
+          flex-wrap: nowrap;
+          align-items: center;
+          align-content: center;
+          justify-content: center;
+          overflow-x: auto;
+      }
+      .tipo{
+       margin: 0 20px 0 20px;
+      }
+      .imagempasta1{
+          margin-top: 20px;
+          height: 180px;
+      }
+      .containerImgPastas{
+          margin-top: 20%;
+          position: relative;
+          float: bottom;
+          height: 400px;
+      }
+      .containerImgEnvelope{
+        flex-wrap: nowrap;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+        
+      }
+      .envelopesTexto{
+        font-size: 200%;
+          width: 100%;
+      }
+     .imgEnvelope1{
+        width: 150px;
+      }
+      .imgEnvelope2{
+        width: 150px;
+      }
+      .imgEnvelope3{
+        width: 150px;
+      }
+      .envelopesTipos{
+          width: 100%;
+      }
+      .tipo{
+          margin-top: 20px;
+      }
+      .containerOutrosTIpos{
+        flex-wrap: nowrap;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+      
+      }
+      .tipo2{
+          margin-top: 40px;
+      }
+      .formularioContato{
+          width: 100%;
+      }
+      .formularioContato{
+          height: 800px;
+      }
+      .containerform{
+        flex-wrap: nowrap;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+
+      }
+      .containerform2 input{
+          width: 80vw;
+      }
+      .contatoSubTexto{
+          width: 100%;
+      }
+      .contatoh2{
+          font-size: 100%;
+      }
+}
+
