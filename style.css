@@ -331,6 +331,7 @@ header{
     
 }
 .containerEspecialImagem p {
+    width: 100%;
     font-size: 6rem;
     font-family:BebasNeue-Regular;
     color: #ffff;
@@ -368,7 +369,6 @@ header{
 }
 .textoEspecial2 p{
     text-align: center;
-    text-transform: capitalize;
     font-family: akrobat-Light;
     font-size: 1.3rem;
     color: #161616;
@@ -427,7 +427,7 @@ header{
     justify-content: center;
     flex-direction: column;
     justify-content: flex-start;
-    width:100%;
+    width:80%;
    height: 700px;
     background: #fff;
     border-radius: 12px;
@@ -456,7 +456,7 @@ header{
     vertical-align: middle;
     font-family: akrobat-ExtraBold;
     letter-spacing: 1px;
-    width: 350px;
+    width: 250px;
     height: 50px;
     border: none;
     outline: none;
@@ -559,7 +559,7 @@ background-size: 100%;
 }
 .tipo{
     display:flex;
-    height: 500px;
+    height: 410px;
     align-items: center;
     flex-direction: column;
     background: #f6f6f6;
@@ -887,15 +887,24 @@ footer{
     font-size: 150%;
   }
   .containerPastas{
-    width:100;
+    width:85%;
     font-size:100%;
-    height: 400px;
+    height: 950px;
     display: flex;
-    overflow-x: scroll
+}
+.sectionPasta{
+    height: auto;
 }
 .containerModelosPasta{
     justify-content: center;
     flex-direction: column;
+}
+.modeloPasta{
+    width: 80%;
+}
+.modeloPasta p{
+    width: 100%;
+    font-size: large;
 }
 .envelopesTipos{
     margin-top: 20px;
@@ -908,8 +917,11 @@ footer{
     overflow-x: scroll;
  
 }
+.tipo{
+    margin: 0px 20px 0px 20px;
+}
 .containerImgEnvelope{
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: center;
   align-content: center;
   justify-content: center;
@@ -951,12 +963,13 @@ footer{
     .hamburguerMenu{
         position: fixed;
         z-index: 5;
+        top: 0px;
         left: 0px;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 80px;
         cursor: pointer;
         transition: all .5s ease-in-out;
         background: #e03541;
@@ -1137,9 +1150,9 @@ footer{
       .containerPastas{
           width:100%;
           font-size:100%;
-          height: 600px;
+          height: auto;
           display: flex;
-          overflow-y: auto;
+          
       }
       .containerModelosPasta{
           width: 100%;
